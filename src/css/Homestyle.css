@@ -1,0 +1,211 @@
+main .first-content {
+  background-color: rgb(64, 64, 240);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+main .first-content .texts-content {
+  padding: 20px 0;
+}
+main .first-content .texts-content h2:first-child {
+  font-size: 40px;
+  color: orange;
+  padding: 10px;
+  font-weight: bold;
+}
+main .first-content .texts-content h2:nth-child(2) {
+  font-size: 40px;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+main .first-content .texts-content p:nth-child(3) {
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+main .first-content .texts-content p:nth-child(4) {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+main .first-content .buttons {
+  padding: 10px;
+}
+main .first-content .buttons button {
+  width: 100px;
+  padding: 10px 10px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+main .first-content .buttons a {
+  text-decoration: none;
+  color: black;
+}
+main .first-content .image img {
+  height: 350px;
+  padding: 20px;
+  border-radius: 50px;
+}
+.services-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services-title h1{
+    color: blue;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid blue;
+}
+main .services-provided {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+}
+main .services-provided .web {
+  /* width: 300px; */
+  height: 250px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 50px 0;
+  box-shadow: 5px 5px 5px gray;
+}
+main .services-provided .web h2 {
+  color: blue;
+  padding: 5px 0;
+  font-weight: bold;
+}
+main .services-provided .web p {
+  font-size: 20px;
+  padding: 10px;
+}
+main .services-provided .web button {
+  width: 100px;
+  padding: 15px 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: orange;
+  border-radius: 5px;
+  cursor: pointer;
+}
+main .services-provided .mobile {
+  /* width: 300px; */
+  height: 250px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 50px 0;
+  box-shadow: 5px 5px 5px gray;
+}
+main .services-provided .mobile h2 {
+  color: blue;
+  padding: 5px 0;
+  font-weight: bold;
+}
+main .services-provided .mobile p {
+  font-size: 20px;
+  padding: 10px;
+}
+main .services-provided .mobile button {
+  width: 100px;
+  padding: 15px 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: orange;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main .services-provided .graphics {
+  /* width: 300px; */
+  height: 250px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 50px 0;
+  box-shadow: 5px 5px 5px gray;
+}
+main .services-provided .graphics h2 {
+  color: blue;
+  padding: 5px 0;
+  font-weight: bold;
+}
+main .services-provided .graphics p {
+  font-size: 20px;
+  padding: 10px;
+}
+main .services-provided .graphics button {
+  width: 100px;
+  padding: 15px 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: orange;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* .services-provided *:hover {
+  background-color: rgb(64, 64, 240);
+  color: white;
+  h2{
+    color: white;
+  }
+} */
+/* .services-provided:hover h2 {
+  color: white;
+} */
+.testimonial-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial-title h1{
+    color: blue;
+    font-weight: bold;
+    border-bottom: 2px solid blue;
+    padding: 10px;
+}
+main .testimonials {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: center;
+}
+main .testimonials img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.person-one,
+.person-two,
+.person-three {
+  overflow: hidden;
+  width: 100%;
+  font-size: 20px;
+  animation: testimonial-animation 10s linear infinite;
+  
+}
+
+
+@keyframes testimonial-animation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,122 @@
+
+.title {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.title h2{
+    padding: 10px;
+    border-bottom: 2px solid orange;
+
+}
+.about-p p{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.services-title h1{
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid blue;
+}
+.services-provided {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+}
+.services-provided .web {
+  /* width: 300px; */
+  height: 250px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 50px 0;
+  box-shadow: 5px 5px 5px gray;
+}
+.services-provided .web h2 {
+  color: blue;
+  padding: 5px 0;
+  font-weight: bold;
+}
+.services-provided .web p {
+  font-size: 20px;
+  padding: 10px;
+}
+.services-provided .web button {
+  width: 100px;
+  padding: 15px 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: orange;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.services-provided .mobile {
+  /* width: 300px; */
+  height: 250px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 50px 0;
+  box-shadow: 5px 5px 5px gray;
+}
+.services-provided .mobile h2 {
+  color: blue;
+  padding: 5px 0;
+  font-weight: bold;
+}
+.services-provided .mobile p {
+  font-size: 20px;
+  padding: 10px;
+}
+.services-provided .mobile button {
+  width: 100px;
+  padding: 15px 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: orange;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.services-provided .graphics {
+  /* width: 300px; */
+  height: 250px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 50px 0;
+  box-shadow: 5px 5px 5px gray;
+}
+.services-provided .graphics h2 {
+  color: blue;
+  padding: 5px 0;
+  font-weight: bold;
+}
+.services-provided .graphics p {
+  font-size: 20px;
+  padding: 10px;
+}
+.services-provided .graphics button {
+  width: 100px;
+  padding: 15px 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: orange;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.services-provided :hover {
+  background-color: rgb(64, 64, 240);
+  color: white;
+  h2{
+    color: white;
+  }
+}

@@ -1,0 +1,35 @@
+.footer-contents{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    background-color: blue;
+    padding: 20px 0;
+}
+.contact-us p{
+    font-size: 20px;
+}
+.contact-us h1{
+    color: orange;
+    font-weight: bold;
+}
+.quick-links p a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.quick-links h1{
+    color: orange;
+    font-weight: bold;
+}
+.mail-us p a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.mail-us h1{
+    color: orange;
+    font-weight: bold;
+}

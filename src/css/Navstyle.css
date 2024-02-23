@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: orange;
+    width: 100%;
+}
+.company-name{
+    padding: 0 70px;
+    color: blue;
+    font-weight: bold;
+}
+.Nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+.Nav-menu li{
+    list-style: none;
+    padding: 20px;
+}
+.Nav-menu li a{
+    text-decoration: none;
+    font-size: large;
+    font-family: sans-serif;
+    color: blue;
+}
